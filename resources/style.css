@@ -151,16 +151,11 @@ header a:hover{
 }
 
 .image-small img{
-    max-width: 100%;
+    width: 100%;
 }
 
 .date{
     width: 65%;
-}
-
-.article-small:hover {
-    box-shadow: 0 7px 14px rgba(0,0,0,0.125), 0 5px 5px rgba(0,0,0,0.11);
-    background-color: #E7EFF3;
 }
 
 .btn{
@@ -221,7 +216,11 @@ header a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-right: 1.5rem;
+}
+
+.article-small:hover {
+    box-shadow: 0 7px 14px rgba(0,0,0,0.125), 0 5px 5px rgba(0,0,0,0.11);
+    background-color: #E7EFF3;
 }
 
 .first-article-small{
@@ -338,8 +337,8 @@ footer a:hover{
     
         .container{
             flex-direction: column;
-            padding-left: 16px;
-            padding-right: 16px;
+            padding-left: 1rem;
+            padding-right: 1rem;
         }
     
         .wide-container{
@@ -361,13 +360,13 @@ footer a:hover{
         }
     
         .heading h1 {
-            padding-top: 32px;
-            padding-bottom: 32px;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
         }
     
         .heading p {
-            padding-top: 0;
-            padding-bottom: 24px;
+            padding-top: 0rem;
+            padding-bottom: 1.5rem;
         }
     
         .btn{
@@ -405,14 +404,14 @@ footer a:hover{
     
         .container{
             flex-direction: column;
-            padding-left: 16px;
-            padding-right: 16px;
+            padding-left: 1.25rem;
+            padding-right: 1.25rem;
         }
 
         .wide-container{
             width: 100%;
-            margin: 0;
-            padding: 0 !important;
+            margin: 0rem;
+            padding: 0rem !important;
         }
         .small-container{
             width: 100%;
@@ -428,7 +427,7 @@ footer a:hover{
         }
 
         .article-small:hover {
-        box-shadow: 0;
+        box-shadow: 0rem;
         background-color: #E7EFF3;
         }
     
@@ -468,13 +467,13 @@ footer a:hover{
         }
 
         .heading h1 {
-            padding-top: 32px;
-            padding-bottom: 32px;
+            padding-top: 1.6rem;
+            padding-bottom: 1.6rem;
         }
 
         .heading p {
             padding-top: 0;
-            padding-bottom: 24px;
+            padding-bottom: 1.2rem;
         }
 
         .btn{
@@ -487,7 +486,7 @@ footer a:hover{
 
         .image-small{
             width: 100%;
-            max-height: 150px;
+            max-height: 7.5rem;
         }
 
         .image-small img{
@@ -500,8 +499,8 @@ footer a:hover{
 
         .date{
             width: 100%;
-            margin-left: 16px;
-            margin-top:16px;
+            margin-left: 1.25rem;
+            margin-top: 1.25rem;
         }
     
     /* Learning */
@@ -512,11 +511,11 @@ footer a:hover{
         }
     
         .class{
-            width:85%;
+            width: 85%;
             background-color: #E7EFF3;
-            padding: 16px;
-            padding-bottom: 24px;
-            margin-bottom: 8px;
+            padding: 1.25rem;
+            padding-bottom: 1.2rem;
+            margin-bottom: .4rem;
             text-align: center;
         }
     
